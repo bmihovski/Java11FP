@@ -18,8 +18,13 @@ public class Transform {
 		
 		friends.stream()
 				.map(name -> name.toUpperCase())
-				.forEach(name -> System.out.println(name + " "));
+				.forEach(name -> System.out.print(name + " "));
 		
+		System.out.println();
+		
+		friends.stream()
+			   .map(String::length)
+			   .forEach(count -> System.out.print(count + " "));
 		System.out.println();
 		
 
