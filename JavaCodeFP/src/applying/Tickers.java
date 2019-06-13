@@ -1,0 +1,13 @@
+package applying;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Tickers {
+
+	final public static List<String> symbols = Arrays.asList(
+		    "AMD", "HPQ", "IBM", "TXN", "VMW", "XRX", "AAPL", "ADBE",
+		    "AMZN", "CRAY", "CSCO", "SNE", "GOOG", "INTC", "INTU",
+		    "MSFT", "ORCL", "TIBX", "VRSN", "YHOO");
+
+}
