@@ -1,11 +1,11 @@
 package recur;
 
+import static recur.Memoizer.callMemoized;
+
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.function.BiFunction;
 import java.util.function.Function;
-import static recur.Memoizer.callMemoized;
 
 public class RodCutterBasic {
 
@@ -33,7 +33,7 @@ public class RodCutterBasic {
 	
 	public static void run(final RodCutterBasic rodCutter) {
 		System.out.println(rodCutter.maxProfit(5));
-		System.out.println(rodCutter.maxProfit(22));
+		System.out.println(rodCutter.maxProfit(16));
 	}
 
 	public static void main(String[] args) {
